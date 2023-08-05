@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0 ;
+}
+h2{
+     font-size: 28px;
+}
+h1{
+    font-size: 35px;
+}
+span{
+    color : rgb(43, 0, 111);
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+header,section{
+    padding:10px 60px 20px 60px;
+    background-color: rgb(255, 255, 255);
+    width: 960px;
+    margin: 0 auto ;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul {
+    list-style: none;
+}
+.address-icon{
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    margin-right: 9px;
+    padding: 7px;
+    vertical-align: middle;
+    
+}
+.circle{
+    border-radius: 50%;
+}
+.profail-picter{
+    width: 24px;
+    height: 24px;
+    visibility: middle;
+}
+.hobbis{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+}
+.hobbis li{
+    width: 50%;
+}
